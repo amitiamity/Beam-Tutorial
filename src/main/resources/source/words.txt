@@ -1,0 +1,10 @@
+There are so many concepts that you should know before getting your hands dirty.
+It’s very difficult to go through each and every concept here, instead, we go through important
+concepts that are necessary to implement the basic example.
+Pipeline
+A pipeline is nothing but a series of simple tasks executed to get the desired output.
+These tasks can be executed sequentially or in parallel based on the need.
+You can design the pipeline in a number of ways.
+Let's look at the basic pipeline we have one file in the source bucket,
+we read it and transform it into a collection called Pcollection (discuss later in detail),
+and then transform and load into a destination bucket.
